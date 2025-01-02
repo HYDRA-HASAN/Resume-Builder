@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form id="form">
+        <!-- Personal Information Section -->
+        <div class="section">
+            <h2>Personal Information</h2>
+            <hr>
+            <div class="row">
+                <div class="form-group">
+                    <label for="Name">Full Name:</label>
+                    <input type="text" id="Name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="des">Designation:</label>
+                    <input type="text" id="des" placeholder="e.g., Software Developer">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="phone">Contact Number:</label>
+                    <input type="tel" id="phone" placeholder="e.g., +1234567890">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="e.g., example@mail.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="add">Address:</label>
+                    <input type="text" id="add" placeholder="Enter your address">
+                </div>
+                <div class="form-group">
+                    <label for="pic">Profile Picture:</label>
+                    <input type="file" id="pic" accept="image/*">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="profileSum">Profile Summary:</label>
+                <textarea id="profileSum" rows="4" placeholder="Write a short bio about yourself"></textarea>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <hr>
+            <div class="row">
+                <div class="form-group">
+                    <label for="pass1">Passing Year (1):</label>
+                    <input type="date" id="pass1">
+                </div>
+                <div class="form-group">
+                    <label for="deg1">Degree (1):</label>
+                    <input type="text" id="deg1" placeholder="e.g., Bachelor of Science">
+                </div>
+                <div class="form-group">
+                    <label for="inst1">Institute (1):</label>
+                    <input type="text" id="inst1" placeholder="e.g., University Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="pass2">Passing Year (2):</label>
+                    <input type="date" id="pass2">
+                </div>
+                <div class="form-group">
+                    <label for="deg2">Degree (2):</label>
+                    <input type="text" id="deg2" placeholder="e.g., Master of Science">
+                </div>
+                <div class="form-group">
+                    <label for="inst2">Institute (2):</label>
+                    <input type="text" id="inst2" placeholder="e.g., Another University">
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <hr>
+            <div class="row">
+                <div class="form-group">
+                    <label for="ski1">Skill 1:</label>
+                    <input type="text" id="ski1" placeholder="e.g., JavaScript">
+                </div>
+                <div class="form-group">
+                    <label for="ski2">Skill 2:</label>
+                    <input type="text" id="ski2" placeholder="e.g., React">
+                </div>
+                <div class="form-group">
+                    <label for="ski3">Skill 3:</label>
+                    <input type="text" id="ski3" placeholder="e.g., Node.js">
+                </div>
+                <div class="form-group">
+                    <label for="ski4">Skill 4:</label>
+                    <input type="text" id="ski4" placeholder="e.g., TypeScript">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lan1">Language 1:</label>
+                <input type="text" id="lan1" placeholder="e.g., English">
+            </div>
+            <div class="form-group">
+                <label for="lan2">Language 2:</label>
+                <input type="text" id="lan2" placeholder="e.g., Spanish">
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section">
+            <h2>Experience</h2>
+            <hr>
+            <!-- Experience 1 -->
+            <div class="row">
+                <div class="form-group">
+                    <label for="job2">Job Title (1):</label>
+                    <input type="text" id="job2" placeholder="e.g., Frontend Developer">
+                </div>
+                <div class="form-group">
+                    <label for="com2">Company (1):</label>
+                    <input type="text" id="com2" placeholder="e.g., ABC Corp">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="sta2">Start Year (1):</label>
+                    <input type="date" id="sta2">
+                </div>
+                <div class="form-group">
+                    <label for="end2">End Year (1):</label>
+                    <input type="date" id="end2">
+                </div>
+                <div class="form-group">
+                    <label for="loc2">Location (1):</label>
+                    <input type="text" id="loc2" placeholder="e.g., New York">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ach12">Achievements (1):</label>
+                <input type="text" id="ach12" placeholder="Achievement 1">
+                <input type="text" id="ach22" placeholder="Achievement 2">
+                <input type="text" id="ach32" placeholder="Achievement 3">
+            </div>
+            <!-- Experience 2 -->
+            <div class="row">
+                <div class="form-group">
+                    <label for="job3">Job Title (2):</label>
+                    <input type="text" id="job3" placeholder="e.g., Backend Developer">
+                </div>
+                <div class="form-group">
+                    <label for="com3">Company (2):</label>
+                    <input type="text" id="com3" placeholder="e.g., XYZ Ltd">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="sta3">Start Year (2):</label>
+                    <input type="date" id="sta3">
+                </div>
+                <div class="form-group">
+                    <label for="end3">End Year (2):</label>
+                    <input type="date" id="end3">
+                </div>
+                <div class="form-group">
+                    <label for="loc3">Location (2):</label>
+                    <input type="text" id="loc3" placeholder="e.g., Los Angeles">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ach13">Achievements (2):</label>
+                <input type="text" id="ach13" placeholder="Achievement 1">
+                <input type="text" id="ach23" placeholder="Achievement 2">
+                <input type="text" id="ach33" placeholder="Achievement 3">
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <input id="btnsubmit" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
